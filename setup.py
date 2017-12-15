@@ -3,7 +3,7 @@ from setuptools import find_packages, setup
 
 setup(
     name='shapes',
-    version='1.1',
+    version='1.2',
     description='Python shapes',
     author='Eitan Peretz',
     author_email='eitanperetz@gmail.com',
