@@ -23,7 +23,7 @@ class Install(BaseInstall):
 
 setup(
     name='shapes',
-    version='1.0',
+    version='1.1',
     description='Python shapes',
     author='Eitan Peretz',
     author_email='eitanperetz@gmail.com',
