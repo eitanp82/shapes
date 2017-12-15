@@ -23,7 +23,7 @@ def test_square_invalid_side(square):
     square.side = '10'
 
 
-@pytest.mark.parametrize('side,expected', [(5, 25), (10, 101)])
+@pytest.mark.parametrize('side,expected', [(5, 25), (10, 100)])
 def test_area(square, side, expected):
     square.side = side
     assert square.get_area() == expected
